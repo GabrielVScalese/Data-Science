@@ -1,4 +1,4 @@
-tabela <- read.csv('C:\\Users\\gabri\\Desktop\\Repositorios\\Data-Science\\Pokemon.csv', 
+tabela <- read.csv('{caminho}\\Pokemon.csv', 
                   header = T, sep = ',') # header: tem cabecalho
                                          # sep: usa virgula para separar colunas
 # Remove objeto
