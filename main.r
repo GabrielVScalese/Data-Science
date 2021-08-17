@@ -2,7 +2,7 @@ tabela <- read.csv('{caminho}\\Pokemon.csv',
                   header = T, sep = ',') # header: tem cabecalho
                                          # sep: usa virgula para separar colunas
 # Remove objeto
-#(table)
+# (table)
 
 # Criacao de tabela de frequencia (count de uma coluna)
 tabelaFrequencia <- table(table$Type.1)
